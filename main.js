@@ -17,7 +17,9 @@ window.addEventListener('load', function(){
 
         }
         draw(context){
-            this.player.draw();
+            this.player.draw(context);
         }
     }
+
+    const game = new Game(canvas.width, canvas.height);
 });
