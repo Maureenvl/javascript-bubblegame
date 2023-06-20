@@ -1,4 +1,4 @@
-import { Player } from './Player.js'
+import { Player } from '/player.js'
 
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
